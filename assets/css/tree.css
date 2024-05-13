@@ -1,0 +1,24 @@
+@font-face {font-family: "Irregardless"; src: url("https://assets.codepen.io/35984/51550-webfont.woff2") format("woff2")}
+
+
+svg {
+    max-width: 275px;
+    max-height: 275px;
+    visibility: hidden;
+    overflow: visible;
+}
+
+line {
+	/* stroke: red; */
+	stroke-width: 2px;
+ }
+text{
+	user-select: none;
+    pointer-events: none;
+	text-anchor: middle;
+	font-size: 5em;
+	font-family: 'Irregardless'
+}
+#m1 {
+	font-size: 6em;
+}

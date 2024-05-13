@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E8DDC5;
+    text-align:center;
+     display: flex;
+     justify-content: center;
+   }
+
+.quote-generator {
+    min-height: 100vh;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 6.25rem;
+}
+
+.container .header {
+    margin-bottom: 0.9375rem;
+    font-weight: 700;
+    color: #082970;
+}
+
+.container p {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #082970;
+}
+
+.btn {
+    margin-block: 1.875rem;
+    padding: 1.25rem 3.125rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.413);
+    color: #082970;
+    border: 0;
+    border: 0.1875rem solid #082970;
+    border-radius: 0.3125rem;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    box-shadow: 0 0 0.3125rem #082970;
+}
+
+.quote-box {
+    max-width: 46.875rem;
+    height: 21.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.625rem;
+    margin-top: 1.25rem;
+}
+
+.quote-box {
+    font-weight: 600;
+    color: #C14058;
+}
+
+.quote-box img {
+    margin-top: 1.25rem;
+    width: 100%;
+}
